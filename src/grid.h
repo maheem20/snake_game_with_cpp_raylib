@@ -8,4 +8,5 @@ public:
 
 private:
     int numRows;
+    int numCols;
 };
