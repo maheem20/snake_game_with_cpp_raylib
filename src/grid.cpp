@@ -19,3 +19,7 @@ void Grid::Initialize()
         }
     }
 }
+
+void Grid::Print()
+{
+}
