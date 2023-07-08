@@ -6,3 +6,7 @@ Grid::Grid()
     numCols = 10;
     cellSize = 30;
 }
+
+void Grid::Initialize()
+{
+}
