@@ -22,4 +22,7 @@ void Grid::Initialize()
 
 void Grid::Print()
 {
+    for (int row = 0; row < numRows; row++)
+    {
+    }
 }
