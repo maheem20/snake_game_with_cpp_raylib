@@ -28,5 +28,6 @@ void Grid::Print()
         {
             std::cout << grid[row][column] << " ";
         }
+        std::cout << std::endl;
     }
 }
