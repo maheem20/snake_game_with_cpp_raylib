@@ -2,4 +2,5 @@
 
 Grid::Grid()
 {
+    numRows = 20;
 }
