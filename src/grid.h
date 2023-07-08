@@ -2,4 +2,6 @@
 
 class Grid
 {
+public:
+    Grid();
 };
