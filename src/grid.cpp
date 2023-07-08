@@ -13,6 +13,7 @@ void Grid::Initialize()
     {
         for (int column = 0; column < numCols; column++)
         {
+            grid[row][column] = 0;
         }
     }
 }
