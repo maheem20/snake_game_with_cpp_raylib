@@ -9,4 +9,7 @@ Grid::Grid()
 
 void Grid::Initialize()
 {
+    for (int row = 0; row < numRows; row++)
+    {
+    }
 }
