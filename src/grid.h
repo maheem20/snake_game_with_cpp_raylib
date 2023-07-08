@@ -9,4 +9,5 @@ public:
 private:
     int numRows;
     int numCols;
+    int cellSize;
 };
