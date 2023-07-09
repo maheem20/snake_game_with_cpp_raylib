@@ -14,4 +14,5 @@ private:
     int numRows;
     int numCols;
     int cellSize;
+    std::vector<Color> colors;
 };
