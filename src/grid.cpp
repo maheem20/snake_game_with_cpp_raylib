@@ -52,5 +52,8 @@ void Grid::Draw()
 {
     for (int row = 0; row < numRows; row++)
     {
+        for (int column = 0; column < numCols; column++)
+        {
+        }
     }
 }
