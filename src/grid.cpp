@@ -31,3 +31,8 @@ void Grid::Print()
         std::cout << std::endl;
     }
 }
+
+std::vector<Color> Grid::GetCellColors()
+{
+    std::vector<Color> colors;
+}
