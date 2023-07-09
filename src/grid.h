@@ -11,6 +11,7 @@ public:
     int grid[20][10];
 
 private:
+    std::vector<Color> GetCellColors();
     int numRows;
     int numCols;
     int cellSize;
