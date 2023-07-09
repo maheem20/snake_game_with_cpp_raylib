@@ -50,4 +50,7 @@ std::vector<Color> Grid::GetCellColors()
 
 void Grid::Draw()
 {
+    for (int row = 0; row < numRows; row++)
+    {
+    }
 }
