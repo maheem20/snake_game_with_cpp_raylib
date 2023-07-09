@@ -8,6 +8,7 @@ int main()
     SetTargetFPS(60);
 
     Grid grid = Grid();
+    grid.Print();
 
     while (WindowShouldClose() == false)
     {
