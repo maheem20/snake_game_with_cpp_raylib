@@ -54,6 +54,7 @@ void Grid::Draw()
     {
         for (int column = 0; column < numCols; column++)
         {
+            int cellValue = grid[row][column];
         }
     }
 }
