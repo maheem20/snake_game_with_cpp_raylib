@@ -6,3 +6,7 @@ Block::Block()
     rotationState = 0;
     colors = GetCellColors();
 }
+
+void Block::Draw()
+{
+}
