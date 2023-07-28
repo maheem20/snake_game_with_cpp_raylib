@@ -14,4 +14,5 @@ public:
 private:
     int cellSize;
     int rotationState;
+    std::vector<Color> colors;
 };
