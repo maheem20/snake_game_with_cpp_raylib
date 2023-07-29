@@ -39,3 +39,16 @@ public:
         cells[3] = {Position(0, 1), Position(1, 1), Position(2, 1), Position(3, 1)};
     }
 };
+
+class OBlock : public Block
+{
+public:
+    OBlock()
+    {
+        id = 4;
+        cells[0] = {Position(0, 1), Position(0, 1), Position(1, 0), Position(1, 1)};
+        cells[1] = {Position(0, 0), Position(0, 1), Position(1, 0), Position(1, 1)};
+        cells[2] = {Position(0, 0), Position(0, 1), Position(1, 0), Position(1, 1)};
+        cells[3] = {Position(0, 0), Position(0, 1), Position(1, 0), Position(1, 1)};
+    }
+};
