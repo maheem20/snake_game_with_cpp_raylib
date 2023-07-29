@@ -9,4 +9,5 @@ Block::Block()
 
 void Block::Draw()
 {
+    std::vector<Position> tiles = cells[rotationState];
 }
