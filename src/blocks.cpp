@@ -4,7 +4,7 @@
 class LBlock : public Block
 {
 public:
-    LBlock();
+    LBlock()
     {
         id = 1;
         cells[0] = {Position(0, 2), Position(1, 0), Position(1, 1), Position(1, 2)};
