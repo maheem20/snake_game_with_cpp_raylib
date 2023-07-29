@@ -1,5 +1,6 @@
 #include <raylib.h>
 #include "grid.h"
+#include "blocks.cpp"
 
 int main()
 {
@@ -15,7 +16,7 @@ int main()
         BeginDrawing();
         ClearBackground(darkBlue);
         grid.Draw();
-
+        
         EndDrawing();
     }
 
