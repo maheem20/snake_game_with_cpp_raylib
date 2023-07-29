@@ -18,7 +18,7 @@ int main()
         BeginDrawing();
         ClearBackground(darkBlue);
         grid.Draw();
-        
+        block.Draw();
         EndDrawing();
     }
 
