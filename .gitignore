@@ -2,3 +2,5 @@
 .DS_Store
 block.dSYM/
 block
+blocks
+Info.plist
