@@ -6,5 +6,6 @@ class LBlock : public Block
 public:
     LBlock();
     {
+        id = 1;
     }
 };
