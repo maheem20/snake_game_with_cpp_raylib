@@ -4,4 +4,5 @@ class Game
 {
 public:
     Game();
+    Grid grid;
 };
