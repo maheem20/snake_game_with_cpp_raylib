@@ -17,3 +17,7 @@ void Block::Draw()
         DrawRectangle(item.column * cellSize, item.row * cellSize, cellSize - 1, cellSize - 1, colors[id]);
     }
 }
+
+void Block::Move(int rows, int columns)
+{
+}
