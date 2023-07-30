@@ -28,4 +28,7 @@ std::vector<Position> Block::GetCellPositions()
 {
     std::vector<Position> tiles = cells[rotationState];
     std::vector<Position> movedTiles;
+    for (Position item : tiles)
+    {
+    }
 }
