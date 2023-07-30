@@ -6,6 +6,7 @@ class Game
 {
 public:
     Game();
+    Block GetRandomBlock();
     Grid grid;
 
 private:
