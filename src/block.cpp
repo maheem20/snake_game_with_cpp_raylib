@@ -27,4 +27,5 @@ void Block::Move(int rows, int columns)
 std::vector<Position> Block::GetCellPositions()
 {
     std::vector<Position> tiles = cells[rotationState];
+    std::vector<Position> movedTiles;
 }
