@@ -5,3 +5,7 @@ Game::Game()
     grid = Grid();
     blocks = {LBlock(), JBlock(), TBlock(), ZBlock(), SBlock(), OBlock(), IBlock()};
 }
+
+Block Game::GetRandomBlock()
+{
+}
