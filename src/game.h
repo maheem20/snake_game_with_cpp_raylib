@@ -2,4 +2,6 @@
 
 class Game
 {
+public:
+    Game();
 };
