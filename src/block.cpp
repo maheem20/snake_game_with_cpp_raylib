@@ -23,3 +23,7 @@ void Block::Move(int rows, int columns)
     rowOffset += rows;
     columnOffset += columns;
 }
+
+std::vector<Position> Block::GetCellPositions()
+{
+}
