@@ -33,4 +33,5 @@ std::vector<Position> Block::GetCellPositions()
         Position newPos = Position(item.row + rowOffset, item.column + columnOffset);
         movedTiles.push_back(newPos);
     }
+    return movedTiles;
 }
