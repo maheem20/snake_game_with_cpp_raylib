@@ -2,4 +2,5 @@
 
 Game::Game()
 {
+    grid = Grid();
 }
