@@ -16,4 +16,6 @@ private:
     int cellSize;
     int rotationState;
     std::vector<Color> colors;
+    int rowOffset;
+    int columnOffset;
 };
