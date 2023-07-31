@@ -9,4 +9,5 @@ Game::Game()
 
 Block Game::GetRandomBlock()
 {
+    int randomIndex = rand() % blocks.size();
 }
