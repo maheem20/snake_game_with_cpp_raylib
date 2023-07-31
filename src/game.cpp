@@ -11,4 +11,5 @@ Block Game::GetRandomBlock()
 {
     int randomIndex = rand() % blocks.size();
     Block block = blocks[randomIndex];
+    blocks.erase(blocks.begin() + randomIndex);
 }
