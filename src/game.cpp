@@ -9,6 +9,9 @@ Game::Game()
 
 Block Game::GetRandomBlock()
 {
+    if (blocks.empty())
+    {
+    }
     int randomIndex = rand() % blocks.size();
     Block block = blocks[randomIndex];
     blocks.erase(blocks.begin() + randomIndex);
