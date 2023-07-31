@@ -10,4 +10,5 @@ Game::Game()
 Block Game::GetRandomBlock()
 {
     int randomIndex = rand() % blocks.size();
+    Block block = blocks[randomIndex];
 }
