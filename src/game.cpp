@@ -17,3 +17,7 @@ Block Game::GetRandomBlock()
     blocks.erase(blocks.begin() + randomIndex);
     return block;
 }
+
+std::vector<Block> Game::GetAllBlocks()
+{
+}
