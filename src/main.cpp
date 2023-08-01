@@ -13,6 +13,7 @@ int main()
     {
         BeginDrawing();
         ClearBackground(darkBlue);
+        game.Draw();
         EndDrawing();
     }
 
