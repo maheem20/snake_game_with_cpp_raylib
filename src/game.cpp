@@ -5,6 +5,8 @@ Game::Game()
 {
     grid = Grid();
     blocks = GetAllBlocks();
+    currentBlock = GetRandomBlock();
+    nextBlock = GetRandomBlock();
 }
 
 Block Game::GetRandomBlock()
