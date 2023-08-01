@@ -33,4 +33,9 @@ void Game::Draw(){
 
 void Game::HandleInput(){
     int keyPressed = GetKeyPressed();
+    switch (keyPressed)
+    {
+        case KEY_LEFT:
+        break;
+    }
 }
