@@ -30,3 +30,6 @@ void Game::Draw(){
     grid.Draw();
     currentBlock.Draw();
 }
+
+void Game::HandleInput(){
+}
