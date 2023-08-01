@@ -11,6 +11,7 @@ public:
     void Draw();
     void HandleInput();
     void MoveBlockLeft();
+    void MoveBlockRight();
     Grid grid;
 
 private:

@@ -43,3 +43,7 @@ void Game::HandleInput(){
 void Game::MoveBlockLeft(){
     currentBlock.Move(0, -1);
 }
+
+void Game::MoveBlockRight(){
+    currentBlock.Move(0, 1);
+}
