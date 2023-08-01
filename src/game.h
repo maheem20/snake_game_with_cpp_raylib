@@ -12,6 +12,7 @@ public:
     void HandleInput();
     void MoveBlockLeft();
     void MoveBlockRight();
+    void MoveBlockDown();
     Grid grid;
 
 private:
