@@ -9,6 +9,7 @@ public:
     Block GetRandomBlock();
     std::vector<Block> GetAllBlocks();
     void Draw();
+    void HandleInput();
     Grid grid;
 
 private:
