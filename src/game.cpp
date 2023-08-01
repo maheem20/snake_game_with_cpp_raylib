@@ -39,3 +39,7 @@ void Game::HandleInput(){
         break;
     }
 }
+
+void Game::MoveBlockLeft(){
+    currentBlock.Move(0, -1);
+}

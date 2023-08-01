@@ -10,6 +10,7 @@ public:
     std::vector<Block> GetAllBlocks();
     void Draw();
     void HandleInput();
+    void MoveBlockLeft();
     Grid grid;
 
 private:
