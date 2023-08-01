@@ -32,4 +32,5 @@ void Game::Draw(){
 }
 
 void Game::HandleInput(){
+    int keyPressed = GetKeyPressed();
 }
