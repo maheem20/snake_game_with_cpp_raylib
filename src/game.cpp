@@ -27,4 +27,5 @@ std::vector<Block> Game::GetAllBlocks()
 }
 
 void Game::Draw(){
+    grid.Draw();
 }
