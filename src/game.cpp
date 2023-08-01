@@ -36,7 +36,14 @@ void Game::HandleInput(){
     switch (keyPressed)
     {
         case KEY_LEFT:
-        break;
+            MoveBlockLeft();
+            break;
+        case KEY_RIGHT:
+            MoveBlockRight();
+            break;
+        case KEY_DOWN:
+            MoveBlockDown();
+            break;
     }
 }
 
