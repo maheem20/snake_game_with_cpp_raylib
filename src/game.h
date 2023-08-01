@@ -16,6 +16,7 @@ public:
     Grid grid;
 
 private:
+    bool isBlockOutside();
     std::vector<Block> blocks;
     Block currentBlock;
     Block nextBlock;
