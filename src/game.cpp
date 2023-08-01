@@ -25,3 +25,6 @@ std::vector<Block> Game::GetAllBlocks()
 {
     return {LBlock(), JBlock(), TBlock(), ZBlock(), SBlock(), OBlock(), IBlock()};
 }
+
+void Game::Draw(){
+}
