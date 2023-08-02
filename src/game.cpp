@@ -62,5 +62,12 @@ void Game::MoveBlockDown(){
 bool Game::isBlockOutside()
 {
     std::vector<Position> tiles = currentBlock.GetCellPositions();
+    for (Position item : tiles)
+    {
+        if (grid.IsCellOutside(item.row, item.column))
+        {
+            return true;
+        }
+    }
     return false;
 }
