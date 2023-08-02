@@ -38,4 +38,5 @@ std::vector<Position> Block::GetCellPositions()
 
 void Block::Rotate()
 {
+    rotationState++;
 }
