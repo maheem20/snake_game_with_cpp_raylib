@@ -35,3 +35,7 @@ std::vector<Position> Block::GetCellPositions()
     }
     return movedTiles;
 }
+
+void Block::Rotate()
+{
+}
