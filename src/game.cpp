@@ -88,3 +88,7 @@ bool Game::isBlockOutside()
     }
     return false;
 }
+
+void Game::RotateBlock()
+{
+}
