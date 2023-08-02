@@ -1,6 +1,6 @@
 #pragma once
-#include <grid.h>
-#include <blocks.cpp>
+#include "grid.h"
+#include "blocks.cpp"
 
 class Game
 {
