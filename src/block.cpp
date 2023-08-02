@@ -44,3 +44,7 @@ void Block::Rotate()
         rotationState = 0;
     }
 }
+
+void Block::UndoRotation()
+{
+}
