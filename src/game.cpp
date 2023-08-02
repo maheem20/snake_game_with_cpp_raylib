@@ -61,5 +61,6 @@ void Game::MoveBlockDown(){
 
 bool Game::isBlockOutside()
 {
-return false;
+    std::vector<Position> tiles = currentBlock.GetCellPositions();
+    return false;
 }
