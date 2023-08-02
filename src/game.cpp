@@ -58,3 +58,8 @@ void Game::MoveBlockRight(){
 void Game::MoveBlockDown(){
     currentBlock.Move(1, 0);
 }
+
+bool Game::isBlockOutside()
+{
+return false;
+}
