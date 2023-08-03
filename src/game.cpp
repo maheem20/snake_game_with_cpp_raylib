@@ -115,5 +115,6 @@ void Game::lockBlock()
 
 bool Game::BlockFits()
 {
+    std::vector<Position> tiles = currentBlock.GetCellPositions();
     return false;
 }
