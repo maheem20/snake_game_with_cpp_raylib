@@ -101,3 +101,7 @@ void Game::RotateBlock()
         currentBlock.UndoRotation();
     }
 }
+
+void Game::lockBlock()
+{
+}
