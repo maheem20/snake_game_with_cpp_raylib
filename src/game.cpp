@@ -116,5 +116,12 @@ void Game::lockBlock()
 bool Game::BlockFits()
 {
     std::vector<Position> tiles = currentBlock.GetCellPositions();
-    return false;
+    for (Position item : tiles)
+    {
+        if (grid.IsCellEmpty(item.row, item.column) == false)
+        {
+            return false;
+        }
+    }
+    return true;
 }
