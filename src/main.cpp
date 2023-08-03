@@ -1,6 +1,8 @@
 #include <raylib.h>
 #include "game.h"
 
+double lastUpdateTime = 0;
+
 int main()
 {
     Color darkBlue = {44, 44, 127, 255};
