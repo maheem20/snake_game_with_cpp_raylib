@@ -3,6 +3,8 @@
 
 double lastUpdateTime = 0;
 
+bool EventTriggered(double interval){ }
+
 int main()
 {
     Color darkBlue = {44, 44, 127, 255};
