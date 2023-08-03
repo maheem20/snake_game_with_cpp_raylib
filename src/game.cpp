@@ -112,3 +112,8 @@ void Game::lockBlock()
     currentBlock = nextBlock;
     nextBlock = GetRandomBlock();
 }
+
+bool Game::BlockFits()
+{
+    return false;
+}
