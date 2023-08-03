@@ -12,6 +12,7 @@ int main()
     while (WindowShouldClose() == false)
     {
         game.HandleInput();
+        game.MoveBlockDown();
         BeginDrawing();
         ClearBackground(darkBlue);
         game.Draw();
