@@ -104,4 +104,5 @@ void Game::RotateBlock()
 
 void Game::lockBlock()
 {
+    std::vector<Position> tiles = currentBlock.GetCellPositions();
 }
