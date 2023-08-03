@@ -3,7 +3,9 @@
 
 double lastUpdateTime = 0;
 
-bool EventTriggered(double interval){ }
+bool EventTriggered(double interval){
+    double currentTime = GetTime();
+}
 
 int main()
 {
