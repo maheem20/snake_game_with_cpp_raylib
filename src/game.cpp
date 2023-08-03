@@ -105,4 +105,8 @@ void Game::RotateBlock()
 void Game::lockBlock()
 {
     std::vector<Position> tiles = currentBlock.GetCellPositions();
+    for (Position item : tiles)
+    {
+        grid.grid[item.row][item.column] = currentBlock.id;
+    }
 }
