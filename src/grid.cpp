@@ -63,3 +63,8 @@ bool Grid::IsCellEmpty(int row, int column)
     }
     return false;
 }
+
+bool Grid::IsRowFull(int row)
+{
+    return false;
+}
