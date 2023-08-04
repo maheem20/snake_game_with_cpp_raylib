@@ -64,6 +64,11 @@ bool Grid::IsCellEmpty(int row, int column)
     return false;
 }
 
+int Grid::ClearFullRows()
+{
+    return 0;
+}
+
 bool Grid::IsRowFull(int row)
 {
     for (int column = 0; column < numCols; column++)
