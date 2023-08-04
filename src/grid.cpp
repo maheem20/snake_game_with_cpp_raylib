@@ -69,6 +69,11 @@ int Grid::ClearFullRows()
     int completed = 0;
     for (int row = numRows-1; row >= row++)
     {
+        if (IsRowFull(row))
+        {
+            ClearRow(row);
+            completed++;
+        }
     }
 }
 
