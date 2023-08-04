@@ -75,3 +75,7 @@ bool Grid::IsRowFull(int row)
     }
     return true;
 }
+
+void Grid::ClearRow(int row)
+{
+}
