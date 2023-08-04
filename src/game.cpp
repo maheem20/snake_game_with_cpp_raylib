@@ -55,7 +55,7 @@ void Game::HandleInput()
 void Game::MoveBlockLeft()
 {
     currentBlock.Move(0, -1);
-    if (isBlockOutside())
+    if (isBlockOutside() || BlockFits() == false)
     {
         currentBlock.Move(0, 1);
     }
@@ -64,7 +64,7 @@ void Game::MoveBlockLeft()
 void Game::MoveBlockRight()
 {
     currentBlock.Move(0, 1);
-    if (isBlockOutside())
+    if (isBlockOutside() || BlockFits() == false)
     {
         currentBlock.Move(0, -1);
     }
@@ -73,7 +73,7 @@ void Game::MoveBlockRight()
 void Game::MoveBlockDown()
 {
     currentBlock.Move(1, 0);
-    if (isBlockOutside())
+    if (isBlockOutside() || BlockFits() == false)
     {
         currentBlock.Move(-1, 0);
         lockBlock();
@@ -96,7 +96,7 @@ bool Game::isBlockOutside()
 void Game::RotateBlock()
 {
     currentBlock.Rotate();
-    if (isBlockOutside())
+    if (isBlockOutside() || BlockFits() == false)
     {
         currentBlock.UndoRotation();
     }
