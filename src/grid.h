@@ -16,6 +16,7 @@ public:
 private:
     bool IsRowFull(int row);
     void ClearRow(int row);
+    void MoveRowDown(int row, int numRow);
     int numRows;
     int numCols;
     int cellSize;
