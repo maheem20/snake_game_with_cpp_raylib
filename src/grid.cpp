@@ -83,3 +83,7 @@ void Grid::ClearRow(int row)
         grid[row][column] = 0;
     }
 }
+
+void Grid::MoveRowDown(int row, int numRow)
+{
+}
