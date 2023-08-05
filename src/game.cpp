@@ -55,29 +55,38 @@ void Game::HandleInput()
 
 void Game::MoveBlockLeft()
 {
-    currentBlock.Move(0, -1);
-    if (isBlockOutside() || BlockFits() == false)
+    if (!gameOver)
     {
-        currentBlock.Move(0, 1);
+        currentBlock.Move(0, -1);
+        if (isBlockOutside() || BlockFits() == false)
+        {
+            currentBlock.Move(0, 1);
+        }
     }
 }
 
 void Game::MoveBlockRight()
 {
-    currentBlock.Move(0, 1);
-    if (isBlockOutside() || BlockFits() == false)
+    if (!gameOver)
     {
-        currentBlock.Move(0, -1);
+        currentBlock.Move(0, 1);
+        if (isBlockOutside() || BlockFits() == false)
+        {
+            currentBlock.Move(0, -1);
+        }
     }
 }
 
 void Game::MoveBlockDown()
 {
-    currentBlock.Move(1, 0);
-    if (isBlockOutside() || BlockFits() == false)
+    if (!gameOver)
     {
-        currentBlock.Move(-1, 0);
-        LockBlock();
+        currentBlock.Move(1, 0);
+        if (isBlockOutside() || BlockFits() == false)
+        {
+            currentBlock.Move(-1, 0);
+            LockBlock();
+        }
     }
 }
 
@@ -96,10 +105,13 @@ bool Game::isBlockOutside()
 
 void Game::RotateBlock()
 {
-    currentBlock.Rotate();
-    if (isBlockOutside() || BlockFits() == false)
+    if (!gameOver)
     {
-        currentBlock.UndoRotation();
+        currentBlock.Rotate();
+        if (isBlockOutside() || BlockFits() == false)
+        {
+            currentBlock.UndoRotation();
+        }
     }
 }
 
