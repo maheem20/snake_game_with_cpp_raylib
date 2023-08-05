@@ -36,6 +36,11 @@ void Game::Draw()
 void Game::HandleInput()
 {
     int keyPressed = GetKeyPressed();
+    if (gameOver && keyPressed == KEY_SPACE)
+    {
+        gameOver = false;
+        Reset();
+    }
     switch (keyPressed)
     {
     case KEY_LEFT:
