@@ -74,6 +74,10 @@ int Grid::ClearFullRows()
             ClearRow(row);
             completed++;
         }
+        else if (completed > 0)
+        {
+            MoveRowDown(row, completed);
+        }
     }
 }
 
