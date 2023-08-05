@@ -76,7 +76,7 @@ void Game::MoveBlockDown()
     if (isBlockOutside() || BlockFits() == false)
     {
         currentBlock.Move(-1, 0);
-        lockBlock();
+        LockBlock();
     }
 }
 
@@ -102,7 +102,7 @@ void Game::RotateBlock()
     }
 }
 
-void Game::lockBlock()
+void Game::LockBlock()
 {
     std::vector<Position> tiles = currentBlock.GetCellPositions();
     for (Position item : tiles)
