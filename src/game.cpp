@@ -148,3 +148,11 @@ bool Game::BlockFits()
     }
     return true;
 }
+
+void Game::Reset()
+{
+    grid.Initialize();
+    blocks = GetAllBlocks();
+    currentBlock = GetRandomBlock();
+    nextBlock = GetRandomBlock();
+}
