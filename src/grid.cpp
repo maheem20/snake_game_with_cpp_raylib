@@ -79,6 +79,7 @@ int Grid::ClearFullRows()
             MoveRowDown(row, completed);
         }
     }
+    return completed;
 }
 
 bool Grid::IsRowFull(int row)
