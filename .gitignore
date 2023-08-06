@@ -4,5 +4,5 @@ block.dSYM/
 block
 blocks
 Info.plist
-main
-main.dSYM/
+./main
+./main.dSYM/
