@@ -1,5 +1,6 @@
 #include <raylib.h>
 #include "game.h"
+#include "colors.h"
 
 double lastUpdateTime = 0;
 
@@ -16,7 +17,6 @@ bool EventTriggered(double interval)
 
 int main()
 {
-    Color darkBlue = {44, 44, 127, 255};
     InitWindow(500, 620, "raylib Tetris");
     SetTargetFPS(60);
 
