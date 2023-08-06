@@ -3,9 +3,11 @@
 
 double lastUpdateTime = 0;
 
-bool EventTriggered(double interval){
+bool EventTriggered(double interval)
+{
     double currentTime = GetTime();
-    if (currentTime - lastUpdateTime >= interval){
+    if (currentTime - lastUpdateTime >= interval)
+    {
         lastUpdateTime = currentTime;
         return true;
     }
@@ -23,7 +25,8 @@ int main()
     while (WindowShouldClose() == false)
     {
         game.HandleInput();
-        if (EventTriggered(0.2)){
+        if (EventTriggered(0.2))
+        {
             game.MoveBlockDown();
         }
         game.MoveBlockDown();
