@@ -31,7 +31,7 @@ std::vector<Block> Game::GetAllBlocks()
 void Game::Draw()
 {
     grid.Draw();
-    currentBlock.Draw();
+    currentBlock.Draw(11, 11);
 }
 
 void Game::HandleInput()
