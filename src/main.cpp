@@ -44,6 +44,7 @@ int main()
 
         char scoreText[10];
         sprintf(scoreText, "%d", game.score);
+        Vector2 scoreTextSize = MeasureTextEx(font, scoreText, 38, 2);
 
         DrawRectangleRounded({320, 215, 170, 180}, 0.3, 6, lightBlue);
         game.Draw();
