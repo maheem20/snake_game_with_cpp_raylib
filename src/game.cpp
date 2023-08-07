@@ -8,6 +8,7 @@ Game::Game()
     currentBlock = GetRandomBlock();
     nextBlock = GetRandomBlock();
     gameOver = false;
+    score = 0;
 }
 
 Block Game::GetRandomBlock()
