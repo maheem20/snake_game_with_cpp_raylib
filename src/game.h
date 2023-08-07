@@ -23,6 +23,7 @@ private:
     void LockBlock();
     bool BlockFits();
     void Reset();
+    void UpdateScore();
     std::vector<Block> blocks;
     Block currentBlock;
     Block nextBlock;
