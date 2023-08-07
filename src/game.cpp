@@ -157,3 +157,7 @@ void Game::Reset()
     currentBlock = GetRandomBlock();
     nextBlock = GetRandomBlock();
 }
+
+void Game::UpdateScore(int LinesCleared, int moveDownPoints)
+{
+}
