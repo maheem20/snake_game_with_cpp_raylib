@@ -9,7 +9,7 @@ Block::Block()
     columnOffset = 0;
 }
 
-void Block::Draw()
+void Block::Draw(int offsetX, int offsetY)
 {
     std::vector<Position> tiles = GetCellPositions();
     for (Position item : tiles)
