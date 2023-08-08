@@ -12,6 +12,10 @@ Game::Game()
     InitAudioDevice();
 }
 
+Game::~Game()
+{
+}
+
 Block Game::GetRandomBlock()
 {
     if (blocks.empty())
