@@ -30,5 +30,5 @@ private:
     Block currentBlock;
     Block nextBlock;
     Sound rotateSound;
-    Sound clearRowSound;
+    Sound clearSound;
 };
