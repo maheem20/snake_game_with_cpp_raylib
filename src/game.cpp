@@ -14,6 +14,7 @@ Game::Game()
 
 Game::~Game()
 {
+    CloseAudioDevice();
 }
 
 Block Game::GetRandomBlock()
