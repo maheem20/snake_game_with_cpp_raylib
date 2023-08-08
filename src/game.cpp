@@ -9,6 +9,7 @@ Game::Game()
     nextBlock = GetRandomBlock();
     gameOver = false;
     score = 0;
+    InitAudioDevice();
 }
 
 Block Game::GetRandomBlock()
