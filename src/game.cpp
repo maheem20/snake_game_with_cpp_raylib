@@ -15,6 +15,7 @@ Game::Game()
 
 Game::~Game()
 {
+    UnloadMusicStream(music);
     CloseAudioDevice();
 }
 
