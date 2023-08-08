@@ -11,6 +11,7 @@ Game::Game()
     score = 0;
     InitAudioDevice();
     music = LoadMusicStream("./Sounds/music.mp3");
+    PlayMusicStream(music);
 }
 
 Game::~Game()
