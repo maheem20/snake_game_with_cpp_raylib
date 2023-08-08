@@ -12,10 +12,14 @@ Game::Game()
     InitAudioDevice();
     music = LoadMusicStream("./Sounds/music.mp3");
     PlayMusicStream(music);
+    rotateSound = LoadSound("./Sounds/rotate.mp3");
+    clearSound = LoadSound("./Sounds/clear.mp3");
 }
 
 Game::~Game()
 {
+    UnloadSound(rotateSound);
+    UnloadSound(clearSound);
     UnloadMusicStream(music);
     CloseAudioDevice();
 }
