@@ -6,3 +6,5 @@ blocks
 Info.plist
 ./main
 ./main.dSYM/
+./game
+./game.dSYM/
