@@ -165,7 +165,11 @@ void Game::LockBlock()
     }
     nextBlock = GetRandomBlock();
     int rowsCleared = grid.ClearFullRows();
-    UpdateScore(rowsCleared, 0);
+    if (rowsCleared > 0)
+    {
+        PlaySound(clearSound);
+        UpdateScore(rowsCleared, 0);
+    }
 }
 
 bool Game::BlockFits()
