@@ -144,6 +144,10 @@ void Game::RotateBlock()
         {
             currentBlock.UndoRotation();
         }
+        else
+        {
+            PlaySound(rotateSound);
+        }
     }
 }
 
